@@ -221,7 +221,7 @@ li a:hover {
   line-height: 20px;
   padding: 5px 10px;
   border-radius: 5px;
-  opacity: 75%;
+  opacity: 65%;
 }
 
 .tooltip-box-et {
@@ -232,7 +232,7 @@ li a:hover {
   line-height: 20px;
   padding: 5px 10px;
   border-radius: 5px;
-  opacity: 75%;
+  opacity: 65%;
 }
 
 .tooltip-box-montagoe {
@@ -243,7 +243,7 @@ li a:hover {
   line-height: 20px;
   padding: 5px 10px;
   border-radius: 5px;
-  opacity: 75%;
+  opacity: 65%;
 }
 
 .tooltip:hover .tooltip-box {
