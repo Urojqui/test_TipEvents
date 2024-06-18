@@ -10,13 +10,12 @@ body {
   background-color: rgb(248, 245, 245);
 }
 
-body .menu {
+.menu {
   width: 100%;
   margin: 0 auto;
-  height: auto;
 }
 
-body > header {
+header {
   background-color: #000000;
   width: 100%;
   height: auto;
@@ -26,11 +25,11 @@ body > header {
   position: fixed;
 }
 
-header .logo {
+.logo {
   width: 35px;
   float: left;
   margin-left: 1rem;
-  margin-top: 4px;
+  margin-top: 2.5px;
 }
 
 #barra li {
@@ -65,7 +64,7 @@ header .logo {
   color: white;
 }
 
-header .user {
+.user {
   margin-right: 1rem;
 }
 
@@ -102,7 +101,7 @@ p {
   padding-right: 3px;
 }
 
-header > div .rrss {
+.contenedor {
   font-size: 20px;
   padding: 10px;
   gap: 10px;
@@ -113,9 +112,8 @@ i {
   margin-left: 10px;
 }
 
-.fa-solid {
-  font-size: 10px;
-  margin-left: 0;
+i:hover {
+  color: white;
 }
 
 .background {
@@ -130,31 +128,17 @@ i {
 }
 
 h1 {
-  opacity: 60%;
+  opacity: 70%;
   background-color: #fff;
-  padding: 0 10px;
-  border-radius: 10px;
 }
 
-main{
- padding: 20px;
- justify-content: center;
+.fa-solid {
+  font-size: 10px;
+  margin-left: 0;
 }
 
-main .contenedor_pictures {
-  width: 100%;
-  height: 320px;
-}
-
- .item{
-  display: flex;
-  justify-content: center;
-  height: 302px;
-}
-
-.item img{
-  border-radius: 15px;
-  margin: 0 10px 5px 10px
+main {
+  padding: 20px;
 }
 
 section {
@@ -177,13 +161,8 @@ section li {
   list-style-type: none;
 }
 
-li a {
-  color: #b3b3b3;
-  text-decoration: none;
-}
-
-li a:hover {
-  color: #fff;
+li img {
+  border-radius: 10px;
 }
 
 .campsite li {
@@ -193,7 +172,7 @@ li a:hover {
   width: 180px;
   padding: 3px;
   font-weight: bold;
-  margin-top: -10px;
+  margin-top: -15px;
 }
 
 .precios li {
@@ -206,62 +185,22 @@ li a:hover {
   content: "✈️";
 }
 
-/*TOOLTIP*/
-
-.tooltip {
-  position: relative;
-  text-decoration: none;
-}
-
-.tooltip:hover {
-  text-decoration: underline;
-}
-
-.tooltip-box {
-  display: none;
-  position: absolute;
-  color: #fff;
+footer {
   background-color: #000000;
-  line-height: 20px;
-  padding: 5px 10px;
-  border-radius: 5px;
-  opacity: 75%;
+  padding: 10px;
+  text-align: center;
 }
 
-.tooltip-box-et {
-  display: none;
-  position: absolute;
-  color: #fff;
-  background-color: #000000;
-  line-height: 20px;
-  padding: 5px 10px;
-  border-radius: 5px;
-  opacity: 75%;
+footer p {
+  margin: 0;
+  font-size: 0.8em;
+  color: #b3b3b3;
 }
 
-.tooltip-box-montagoe {
-  display: none;
-  position: absolute;
-  color: #fff;
-  background-color: #000000;
-  line-height: 20px;
-  padding: 5px 10px;
-  border-radius: 5px;
-  opacity: 75%;
+footer p span {
+  border-left: 1.5px solid #b3b3b3;
+  padding: 4px;
 }
-
-.tooltip:hover .tooltip-box {
-  display: inline-block;
-}
-.tooltip:hover .tooltip-box-et {
-  display: inline-block;
-}
-
-.tooltip:hover .tooltip-box-montagoe {
-  display: inline-block;
-}
-
-/*Boton comprar ahora*/
 
 .buynow li {
   margin-top: -20px;
@@ -277,17 +216,17 @@ button {
 }
 
 button:hover {
-  color: #f8f4f4;
+  background-color: rgb(33, 215, 33);
+  color: #000000;
 }
 
-/*Trailer tml y background*/
 .trailer {
   display: flex;
   justify-content: center;
   background-image: url(assets/img/Fondo_iframe.png);
   background-size: cover;
   height: 415px;
-  bottom: 220px;
+  bottom: 220px
 }
 
 iframe {
@@ -311,99 +250,91 @@ form {
 
 input {
   height: 20px;
-} 
+}
+
+li a {
+  color: #b3b3b3;
+  text-decoration: none;
+}
+
+.tooltip {
+  position: relative;
+  text-decoration: none;
+}
+
+.tooltip:hover {
+  text-decoration: underline;
+}
+
+.tooltip-box {
+  display: none;
+  position: absolute;
+  color: #fff;
+  background-color: #000000;
+  line-height: 20px;
+  z-index: 700px;
+  text-align: center;
+  padding: 5px 10px;
+  border-radius: 5px;
+  opacity: 75%;
+}
+
+.tooltip:hover .tooltip-box {
+  display: inline-block;
+}
 
 @media screen and (max-width: 640px) {
-  .item {
-    background-color: green;
+  .pictures ol {
+    display: flex;
     justify-content: center;
+    text-align: center;
+    background-color: green;
+  }
+  .pictures ol img {
+    width: 100%;
   }
 
   .tooltip-box {
     left: 10%;
     bottom: 30px;
     width: auto;
-  }
-
-  .tooltip-box-et {
-    left: -30%;
-    bottom: 30px;
-    width: 138px;
-  }
-
-  .tooltip-box-montagoe {
-    left: -3%;
-    bottom: 30px;
-    width: 138px;
   }
 }
 
 @media screen and (min-width: 640px) and (max-width: 1280px) {
-  .item {
+  .pictures ol {
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
     background-color: red;
-    justify-content: center;
   }
 
+  .pictures ol img {
+    width: 100%;
+  }
 
   .tooltip-box {
     left: 10%;
     bottom: 30px;
     width: auto;
   }
-
-  .tooltip-box-et {
-    left: -30%;
-    bottom: 30px;
-    width: 138px;
-  }
-
-  .tooltip-box-montagoe {
-    left: -3%;
-    bottom: 30px;
-    width: 138px;
-  }
 }
 
 @media screen and (min-width: 1280px) {
-  .item {
+  .pictures ol {
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
     background-color: blue;
-    justify-content: center;
   }
-  
+  .pictures ol img {
+    width: 100%;
+  }
   .tooltip-box {
-    left: -72%;
+    left: -74%;
     bottom: 40px;
     width: 390px;
   }
-
-  .tooltip-box-et {
-    left: -190%;
-    bottom: 40px;
-    width: 390px;
-  }
-
-  .tooltip-box-montagoe {
-    left: -112%;
-    bottom: 40px;
-    width: 390px;
-  }
-}
-
-footer {
-  background-color: #000000;
-  padding: 10px;
-  text-align: center;
-}
-
-footer p {
-  margin: 0;
-  font-size: 0.8em;
-  color: #b3b3b3;
-}
-
-footer p span {
-  border-left: 1.5px solid #b3b3b3;
-  padding: 4px;
 }
 
 /*{

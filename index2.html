@@ -9,7 +9,7 @@
       href="assets/img/favicon.ico"
       type="image/x-icon"
     />
-    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="style2.css" />
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
@@ -39,7 +39,7 @@
             <li class="idioma"><a href="#">ES</a></li>
           </ul>
         </nav>
-        <div class="rrss">
+        <div class="contenedor">
           <a href="https://www.facebook.com/tomorrowland"
             ><i class="fa-brands fa-facebook-f"></i
           ></a>
@@ -62,19 +62,23 @@
       </h1>
     </div>
     <main>
-      <div class="contenedor_pictures">
-        <div class="item">
-          <img
-            src="assets/img/magnificent greens.webp"
-            alt="Entrada camping Magnificent Greens"
-          />
-          <img src="assets/img/easy tent.webp" alt="Zona Easy Tent" />
-          <img
-            src="assets/img/montagoe area.webp"
-            alt="Tienda ce campaña Montagoe Area"
-          />
-        </div>
-      </div>
+      <section class="pictures">
+        <ol>
+          <li>
+            <img
+              src="assets/img/magnificent greens.webp"
+              alt="Entrada camping Magnificent Greens"
+            />
+          </li>
+          <li><img src="assets/img/easy tent.webp" alt="Zona Easy Tent" /></li>
+          <li>
+            <img
+              src="assets/img/montagoe area.webp"
+              alt="Tienda ce campaña Montagoe Area"
+            />
+          </li>
+        </ol>
+      </section>
       <section>
         <ul class="campsite">
           <li>
@@ -86,24 +90,8 @@
               > </a
             ><i class="fa-solid fa-circle-info"></i>
           </li>
-          <li>
-            <a
-              class="tooltip"
-              href="https://belgium.tomorrowland.com/en/tickets/accommodations/easy-tent/easy-tent-2p-packages/"
-              >Easy Tent<span class="tooltip-box-et"
-                >Accede a todo el contenido de tu paquete Tomorrowland</span
-              > </a
-            ><i class="fa-solid fa-circle-info"></i>
-          </li>
-          <li>
-            <a
-              class="tooltip"
-              href="https://belgium.tomorrowland.com/en/tickets/accommodations/montagoe/kokono-2p-packages//"
-              >Montagoe Area<span class="tooltip-box-montagoe"
-                >Accede a todo el contenido de tu paquete Tomorrowland</span
-              > </a
-            ><i class="fa-solid fa-circle-info"></i>
-          </li>
+          <li>Easy Tent <i class="fa-solid fa-circle-info"></i></li>
+          <li>Montagoe Area <i class="fa-solid fa-circle-info"></i></li>
         </ul>
       </section>
       <section>
@@ -141,7 +129,7 @@
     </div>
     <h2>¿Necesitas otro tipo de alojamiento?</h2>
     <h3>Rellena el formulario y apúntate a nuestra lista de espera</h3>
-    <form action="registro_waiting_list" method="post">
+    <form action="registro_motogpsorteo.com" method="post">
       <input type="text" name="nombre" placeholder="Nombre completo" required />
       <input
         type="email"
