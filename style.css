@@ -137,7 +137,7 @@ h1 {
 }
 
 main {
-  padding: 20px;
+  padding: 30px 20px 0 20px;
   justify-content: center;
 }
 
@@ -322,20 +322,20 @@ input {
   }
 
   .tooltip-box {
-    left: 10%;
-    bottom: 30px;
+    left: 3%;
+    bottom: 43px;
     width: auto;
   }
 
   .tooltip-box-et {
     left: -30%;
-    bottom: 30px;
+    bottom: 43px;
     width: 138px;
   }
 
   .tooltip-box-montagoe {
-    left: -3%;
-    bottom: 30px;
+    left: -2%;
+    bottom: 43px;
     width: 138px;
   }
 }
@@ -353,19 +353,19 @@ input {
 
   .tooltip-box {
     left: 10%;
-    bottom: 30px;
+    bottom: 40px;
     width: auto;
   }
 
   .tooltip-box-et {
     left: -30%;
-    bottom: 30px;
+    bottom: 40px;
     width: 138px;
   }
 
   .tooltip-box-montagoe {
     left: -3%;
-    bottom: 30px;
+    bottom: 40px;
     width: 138px;
   }
 }
@@ -394,7 +394,7 @@ input {
   }
 
   .tooltip-box-montagoe {
-    left: -112%;
+    left: -106%;
     bottom: 40px;
     width: 390px;
   }
