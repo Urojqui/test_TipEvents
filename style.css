@@ -88,8 +88,8 @@ i {
 }
 
 .hamburger .fa-solid {
-  font-size: 30px;
-  margin: 5px 15px;
+  font-size: 20px;
+  margin: 10px 5px;
 }
 
 .fa-solid{
@@ -308,8 +308,102 @@ input{
   font-weight: bolder;
 }
 
+@media screen and (max-width: 375px) {
 
-@media screen and (max-width: 540px) {
+  header #acceso{
+     display: none;
+   }
+ 
+    header > div {
+     display: none;
+   }
+
+   #barra ul li:nth-child(4){
+    display: none;
+  }
+ 
+   #barra ul li:nth-child(5){
+     display: none;
+   }
+ 
+   #barra ul li:last-child{
+     display: none;
+   }
+ 
+   .item {
+     justify-content: space-between;
+     width: 100%;
+   }
+ 
+   .item img {
+     width: 90%;
+     justify-content: center;
+   }
+ 
+   .hamburger{
+     display: block;
+   }
+ 
+   h1 {
+     font-size: 25px;
+   }
+ 
+   p{
+     font-size: 10px;
+   }
+ 
+   header nav ul{
+     font-size: 6px;
+   }
+ 
+   header .rrss {
+     font-size: 8px;
+     padding: 2.5px;
+     gap: 2.5px;
+   }
+ 
+   button{
+     font-size: 8px;
+     width: 70px;
+     height: 20px;
+     padding: 3px;
+   }
+ 
+   .tooltip-box {
+     left: -2%;
+     bottom: 75px;
+     width: 100px;
+     padding: 0;
+     font-size: 7px;
+   }
+ 
+   .tooltip-box-et {
+     left: -2%;
+     bottom: 58px;
+     width: 100px;
+     padding: 0;
+     font-size: 7px;
+   }
+ 
+   .tooltip-box-montagoe {
+     left: -15%;
+     bottom: 77px;
+     width: 100px;
+     padding: 0;
+     font-size: 7px;
+   }
+ 
+   .enviar{
+     margin-top: 10px;
+     }
+ 
+     input{
+       margin-top: 10px;
+     }
+ 
+ }
+
+@media screen and (min-width: 375px) and (max-width: 570px) {
 
  header #acceso{
     display: none;
@@ -337,17 +431,16 @@ input{
     justify-content: center;
   }
 
+  .hamburger{
+    display: block;
+  }
+
   h1 {
     font-size: 25px;
   }
 
   p{
     font-size: 10px;
-  }
-  
-  header .logo{
-    width: 20px;
-    padding-top: 5px;
   }
 
   header nav ul{
@@ -400,7 +493,7 @@ input{
     }
 
 }
-@media screen and (min-width: 540px) and (max-width: 640px) {
+@media screen and (min-width: 570px) and (max-width: 710px) {
   header #acceso{
     display: none;
   }
@@ -418,6 +511,10 @@ input{
   .item img {
     width: 90%;
     justify-content: center;
+  }
+
+  .hamburger{
+    display: block;
   }
 
   h1 {
@@ -472,7 +569,7 @@ input{
     }
 }
 
-@media screen and (min-width: 640px) and (max-width: 950px) {
+@media screen and (min-width: 710px) and (max-width: 950px) {
   header #acceso{
     display: none;
   }
@@ -495,9 +592,6 @@ input{
     display: block;
   }
 
-  div .hamburger{
-    justify-content: space-between;
-  }
 
   button{
     font-size: 12px;
