@@ -27,7 +27,6 @@ header .logo {
   margin-top: 2.5px;
 }
 
-
 header nav a {
   text-decoration: none;
   color: #b3b3b3;
@@ -92,17 +91,17 @@ i {
   margin: 10px 5px;
 }
 
-.fa-solid{
+.fa-solid {
   font-size: 12px;
   margin-left: 0;
 }
 
-.hamburger{
- color:#b3b3b3;
- float: right;
+.hamburger {
+  color: #b3b3b3;
+  float: right;
 }
 
-.fa-solid:hover{
+.fa-solid:hover {
   color: #fff;
 }
 
@@ -126,7 +125,7 @@ p {
 
 .background {
   background-image: url(assets/img/tml\ fondo\ 2.png);
-  background-size:cover;
+  background-size: cover;
   height: 500px;
   border-top-style: solid;
   border-top-width: 40px;
@@ -172,7 +171,7 @@ li a:hover {
   color: #fff;
 }
 
-#camping{
+#camping {
   margin-bottom: 10px;
 }
 
@@ -185,7 +184,7 @@ li a:hover {
   font-weight: bold;
 }
 
-#oferta{
+#oferta {
   margin-bottom: 20px;
 }
 
@@ -251,7 +250,7 @@ li a:hover {
   display: inline-block;
 }
 
-#boton_compra{
+#boton_compra {
   margin-bottom: 20px;
 }
 
@@ -265,7 +264,7 @@ button {
 button:hover {
   color: #f8f4f4;
 }
- 
+
 .trailer {
   display: flex;
   justify-content: center;
@@ -294,130 +293,42 @@ form {
   text-align: center;
 }
 
-input{
+input {
   height: 20px;
 }
 
-.enviar{
+.enviar {
   background-color: rgb(91, 175, 249);
   color: #fff;
   width: 60px;
 }
 
-.enviar:hover{
+.enviar:hover {
   font-weight: bolder;
 }
 
 @media screen and (max-width: 375px) {
-
-  header #acceso{
-     display: none;
-   }
- 
-    header > div {
-     display: none;
-   }
-
-   #barra ul li:nth-child(4){
-    display: none;
-  }
- 
-   #barra ul li:nth-child(5){
-     display: none;
-   }
- 
-   #barra ul li:last-child{
-     display: none;
-   }
- 
-   .item {
-     justify-content: space-between;
-     width: 100%;
-   }
- 
-   .item img {
-     width: 90%;
-     justify-content: center;
-   }
- 
-   .hamburger{
-     display: block;
-   }
- 
-   h1 {
-     font-size: 25px;
-   }
- 
-   p{
-     font-size: 10px;
-   }
- 
-   header nav ul{
-     font-size: 6px;
-   }
- 
-   header .rrss {
-     font-size: 8px;
-     padding: 2.5px;
-     gap: 2.5px;
-   }
- 
-   button{
-     font-size: 8px;
-     width: 70px;
-     height: 20px;
-     padding: 3px;
-   }
- 
-   .tooltip-box {
-     left: -2%;
-     bottom: 75px;
-     width: 100px;
-     padding: 0;
-     font-size: 7px;
-   }
- 
-   .tooltip-box-et {
-     left: -2%;
-     bottom: 58px;
-     width: 100px;
-     padding: 0;
-     font-size: 7px;
-   }
- 
-   .tooltip-box-montagoe {
-     left: -15%;
-     bottom: 77px;
-     width: 100px;
-     padding: 0;
-     font-size: 7px;
-   }
- 
-   .enviar{
-     margin-top: 10px;
-     }
- 
-     input{
-       margin-top: 10px;
-     }
- 
- }
-
-@media screen and (min-width: 375px) and (max-width: 570px) {
-
- header #acceso{
+  header #acceso {
     display: none;
   }
 
-   header > div {
+  header > div {
     display: none;
   }
 
-  #barra ul li:nth-child(5){
+  #barra ul li:nth-child(3) {
     display: none;
   }
 
-  #barra ul li:last-child{
+  #barra ul li:nth-child(4) {
+    display: none;
+  }
+
+  #barra ul li:nth-child(5) {
+    display: none;
+  }
+
+  #barra ul li:last-child {
     display: none;
   }
 
@@ -431,7 +342,7 @@ input{
     justify-content: center;
   }
 
-  .hamburger{
+  .hamburger {
     display: block;
   }
 
@@ -439,12 +350,8 @@ input{
     font-size: 25px;
   }
 
-  p{
+  p {
     font-size: 10px;
-  }
-
-  header nav ul{
-    font-size: 6px;
   }
 
   header .rrss {
@@ -453,7 +360,7 @@ input{
     gap: 2.5px;
   }
 
-  button{
+  button {
     font-size: 8px;
     width: 70px;
     height: 20px;
@@ -469,8 +376,8 @@ input{
   }
 
   .tooltip-box-et {
-    left: -2%;
-    bottom: 58px;
+    left: -22%;
+    bottom: 75px;
     width: 100px;
     padding: 0;
     font-size: 7px;
@@ -484,21 +391,121 @@ input{
     font-size: 7px;
   }
 
-  .enviar{
+  .enviar {
     margin-top: 10px;
-    }
+  }
 
-    input{
-      margin-top: 10px;
-    }
-
+  input {
+    margin-top: 10px;
+  }
 }
-@media screen and (min-width: 570px) and (max-width: 710px) {
-  header #acceso{
+
+@media screen and (min-width: 376px) and (max-width: 570px) {
+  header #acceso {
     display: none;
   }
 
-   header > div {
+  header > div {
+    display: none;
+  }
+
+  #barra ul li:nth-child(3) {
+    display: none;
+  }
+
+  #barra ul li:nth-child(4) {
+    display: none;
+  }
+
+  #barra ul li:nth-child(5) {
+    display: none;
+  }
+
+  #barra ul li:last-child {
+    display: none;
+  }
+
+  .item {
+    justify-content: space-between;
+    width: 100%;
+  }
+
+  .item img {
+    width: 90%;
+    justify-content: center;
+  }
+
+  .hamburger {
+    display: block;
+  }
+
+  h1 {
+    font-size: 25px;
+  }
+
+  p {
+    font-size: 10px;
+  }
+
+  header .rrss {
+    font-size: 8px;
+    padding: 2.5px;
+    gap: 2.5px;
+  }
+
+  button {
+    font-size: 8px;
+    width: 70px;
+    height: 20px;
+    padding: 3px;
+  }
+
+  .tooltip-box {
+    left: -2%;
+    bottom: 80px;
+    width: 100px;
+    padding: 0;
+    font-size: 7px;
+  }
+
+  .tooltip-box-et {
+    left: -17%;
+    bottom: 75px;
+    width: 100px;
+    padding: 0;
+    font-size: 7px;
+  }
+
+  .tooltip-box-montagoe {
+    left: -15%;
+    bottom: 80px;
+    width: 100px;
+    padding: 0;
+    font-size: 7px;
+  }
+
+  .enviar {
+    margin-top: 10px;
+  }
+
+  input {
+    margin-top: 10px;
+  }
+
+  h2 {
+    font-size: 20px;
+  }
+
+  h3 {
+    font-size: 12px;
+  }
+}
+@media screen and (min-width: 570px) and (max-width: 710px) {
+  header #acceso {
+    display: none;
+  }
+
+  header > div {
     display: none;
   }
 
@@ -513,20 +520,20 @@ input{
     justify-content: center;
   }
 
-  .hamburger{
+  .hamburger {
     display: block;
+  }
+
+  #barra ul li:last-child {
+    display: none;
   }
 
   h1 {
     font-size: 30px;
   }
 
-  p{
+  p {
     font-size: 15px;
-  }
-
-  header nav ul{
-    font-size: 7px;
   }
 
   header .rrss {
@@ -535,7 +542,7 @@ input{
     gap: 5px;
   }
 
-  button{
+  button {
     font-size: 10px;
     width: 90px;
     height: 25px;
@@ -560,21 +567,21 @@ input{
     width: 138px;
   }
 
-  .enviar{
+  .enviar {
     margin-top: 10px;
-    }
+  }
 
-    input{
-      margin-top: 10px;
-    }
+  input {
+    margin-top: 10px;
+  }
 }
 
 @media screen and (min-width: 710px) and (max-width: 950px) {
-  header #acceso{
+  header #acceso {
     display: none;
   }
 
-   header > div {
+  header > div {
     display: none;
   }
 
@@ -588,12 +595,11 @@ input{
     width: 93%;
   }
 
-  .hamburger{
+  .hamburger {
     display: block;
   }
 
-
-  button{
+  button {
     font-size: 12px;
     width: 110px;
     height: 25px;
@@ -607,7 +613,7 @@ input{
   }
 
   .tooltip-box-et {
-    left: -30%;
+    left: 0%;
     bottom: 50px;
     width: auto;
   }
@@ -618,7 +624,6 @@ input{
     width: auto;
   }
 }
-
 
 @media screen and (min-width: 950px) and (max-width: 1280px) {
   .item {
@@ -631,11 +636,11 @@ input{
     width: 93%;
   }
 
-  .hamburger{
+  .hamburger {
     display: none;
   }
 
-  button{
+  button {
     font-size: 12px;
     width: 110px;
     height: 25px;
@@ -649,7 +654,7 @@ input{
   }
 
   .tooltip-box-et {
-    left: -30%;
+    left: 0%;
     bottom: 50px;
     width: auto;
   }
@@ -663,7 +668,7 @@ input{
 
 @media screen and (min-width: 1280px) {
   .item {
-   /* background-color: blue;*/
+    /* background-color: blue;*/
     justify-content: center;
     width: 100%;
   }
@@ -676,7 +681,7 @@ input{
     display: none;
   }
 
-  button{
+  button {
     font-size: 12px;
     width: 130px;
     height: 25px;
@@ -719,6 +724,6 @@ footer p span {
   padding: 4px;
 }
 
-*{
+* {
   outline: 1px solid red;
 }
