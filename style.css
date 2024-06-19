@@ -398,6 +398,14 @@ input {
   input {
     margin-top: 10px;
   }
+
+  h2 {
+    font-size: 20px;
+  }
+
+  h3 {
+    font-size: 12px;
+  }
 }
 
 @media screen and (min-width: 376px) and (max-width: 570px) {
