@@ -13,7 +13,7 @@ body {
 header {
   background-color: #000000;
   width: 100%;
-  height: auto;
+  height: 40px;
   clear: both;
   font-size: 12px;
   position: fixed;
@@ -79,6 +79,10 @@ header .rrss {
   font-size: 20px;
   padding: 10px;
   gap: 10px;
+}
+
+.fa-brands:hover{
+  color: #fff;
 }
 
 i {
@@ -299,11 +303,12 @@ input {
 
 .enviar {
   background-color: rgb(91, 175, 249);
-  color: #fff;
+  color: #020202;
   width: 60px;
 }
 
 .enviar:hover {
+  color: #fff;
   font-weight: bolder;
 }
 
@@ -362,7 +367,7 @@ input {
 
   button {
     font-size: 8px;
-    width: 70px;
+    width: 90px;
     height: 20px;
     padding: 3px;
   }
@@ -463,7 +468,7 @@ input {
 
   button {
     font-size: 8px;
-    width: 70px;
+    width: 90px;
     height: 20px;
     padding: 3px;
   }
@@ -552,7 +557,7 @@ input {
 
   button {
     font-size: 10px;
-    width: 90px;
+    width: 105px;
     height: 25px;
     padding: 3px;
   }
@@ -609,7 +614,7 @@ input {
 
   button {
     font-size: 12px;
-    width: 110px;
+    width: 120px;
     height: 25px;
     padding: 3px;
   }
@@ -650,8 +655,8 @@ input {
 
   button {
     font-size: 12px;
-    width: 110px;
-    height: 25px;
+    width: 130px;
+    height: 30px;
     padding: 3px;
   }
 
@@ -692,7 +697,7 @@ input {
   button {
     font-size: 12px;
     width: 130px;
-    height: 25px;
+    height: 30px;
     padding: 3px;
   }
 
