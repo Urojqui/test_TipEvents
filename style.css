@@ -139,24 +139,13 @@ p {
   justify-content: center;
 }
 
-main .item{
-  padding: 30px 20px 0 20px;
-  justify-content: center;
-}
-
-.item {
-  display: flex;
-  justify-content: center;
-  margin-bottom: 15px;
-}
-
-.item img {
-  border-radius: 15px;
-  margin: 0 10px 5px 10px;
-  width: 447px;
-}
-
 section ul {
+  display: flex;
+  justify-content: space-around;
+  text-align: center;
+}
+
+section ol {
   display: flex;
   justify-content: space-around;
   text-align: center;
@@ -165,6 +154,11 @@ section ul {
 section li {
   margin: 0px 10px;
   list-style-type: none;
+}
+
+li img {
+  width: 400px;
+  border-radius: 15px;
 }
 
 li a {
