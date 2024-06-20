@@ -149,7 +149,30 @@ section ol {
   display: flex;
   justify-content: space-around;
   text-align: center;
+  padding: 20px 0 20px 0;
+  flex-wrap: wrap;
 }
+ ol .mag a{
+  display: inline-block;
+  width: 200px;
+  padding: 5px;
+  background-color: #000000;
+  margin: 10px;
+  border-radius: 10px;
+ }
+
+ ol .mag p{
+  font-size: 16px;
+  width: 220px;
+  padding: 10px;
+  margin: 10px 20px;
+  display: inline-block;
+ }
+ ol .mag {
+  text-align: center;
+  width: 400px;
+  height: auto;
+ }
 
 section li {
   margin: 0px 10px;
@@ -170,29 +193,15 @@ li a:hover {
   color: #fff;
 }
 
-#camping {
-  margin-bottom: 10px;
+.montagoe::before {
+  content: "✈️";
 }
 
-.campsite li {
-  background-color: #000000;
-  color: #b3b3b3;
-  border-radius: 5px;
-  width: 180px;
-  padding: 3px;
-  font-weight: bold;
+.et::before {
+  content: "✈️";
 }
 
-#oferta {
-  margin-bottom: 20px;
-}
-
-.precios li {
-  width: 160px;
-  padding: 3px;
-}
-
-.precios li::before {
+.mg::before {
   content: "✈️";
 }
 
@@ -249,15 +258,16 @@ li a:hover {
   display: inline-block;
 }
 
-#boton_compra {
-  margin-bottom: 20px;
-}
-
 button {
   background-color: #000;
   color: rgb(255, 145, 0);
   border-radius: 10px;
   font-weight: bolder;
+  display: inline-block;
+  width: 140px;
+  height: 30px;
+  padding: 3px;
+  margin-top: 5px;
 }
 
 button:hover {
@@ -360,13 +370,6 @@ input {
     gap: 2.5px;
   }
 
-  button {
-    font-size: 8px;
-    width: 90px;
-    height: 20px;
-    padding: 3px;
-  }
-
   .tooltip-box {
     left: -2%;
     bottom: 75px;
@@ -461,13 +464,6 @@ input {
     gap: 2.5px;
   }
 
-  button {
-    font-size: 8px;
-    width: 90px;
-    height: 20px;
-    padding: 3px;
-  }
-
   .tooltip-box {
     left: -2%;
     bottom: 80px;
@@ -550,12 +546,7 @@ input {
     gap: 5px;
   }
 
-  button {
-    font-size: 10px;
-    width: 105px;
-    height: 25px;
-    padding: 3px;
-  }
+  
 
   .tooltip-box {
     left: 3%;
@@ -607,13 +598,7 @@ input {
     display: block;
   }
 
-  button {
-    font-size: 12px;
-    width: 120px;
-    height: 25px;
-    padding: 3px;
-  }
-
+  
   .tooltip-box {
     left: 10%;
     bottom: 50px;
@@ -648,12 +633,7 @@ input {
     display: none;
   }
 
-  button {
-    font-size: 12px;
-    width: 130px;
-    height: 30px;
-    padding: 3px;
-  }
+  
 
   .tooltip-box {
     left: 10%;
@@ -687,13 +667,6 @@ input {
 
   .hamburger {
     display: none;
-  }
-
-  button {
-    font-size: 12px;
-    width: 130px;
-    height: 30px;
-    padding: 3px;
   }
 
   .tooltip-box {
