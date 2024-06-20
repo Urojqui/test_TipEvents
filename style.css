@@ -152,7 +152,18 @@ section ol {
   padding: 20px 0 20px 0;
   flex-wrap: wrap;
 }
- ol .mag a{
+
+ol .mag1 {
+  text-align: center;
+  width: 400px;
+  height: auto;
+  border: 2px solid #000;
+  border-radius: 18px;
+  overflow: hidden;
+  margin-bottom: 10px;
+ }
+
+ ol .mag1 a{
   display: inline-block;
   width: 200px;
   padding: 5px;
@@ -161,17 +172,67 @@ section ol {
   border-radius: 10px;
  }
 
- ol .mag p{
+ ol .mag1 p{
   font-size: 16px;
   width: 220px;
   padding: 10px;
   margin: 10px 20px;
   display: inline-block;
  }
- ol .mag {
+
+
+
+ ol .mag2 {
   text-align: center;
   width: 400px;
   height: auto;
+  border: 2px solid #000;
+  border-radius: 18px;
+  overflow: hidden;
+  margin-bottom: 10px;
+ }
+
+ ol .mag2 a{
+  display: inline-block;
+  width: 200px;
+  padding: 5px;
+  background-color: #000000;
+  margin: 10px;
+  border-radius: 10px;
+ }
+
+ ol .mag2 p{
+  font-size: 16px;
+  width: 220px;
+  padding: 10px;
+  margin: 10px 20px;
+  display: inline-block;
+ }
+
+ ol .mag3 {
+  text-align: center;
+  width: 400px;
+  height: auto;
+  border: 2px solid #000;
+  border-radius: 18px;
+  overflow: hidden;
+  margin-bottom: 10px;
+ }
+ ol .mag3 a{
+  display: inline-block;
+  width: 200px;
+  padding: 5px;
+  background-color: #000000;
+  margin: 10px;
+  border-radius: 10px;
+ }
+
+ ol .mag3 p{
+  font-size: 16px;
+  width: 220px;
+  padding: 10px;
+  margin: 10px 20px;
+  display: inline-block;
  }
 
 section li {
@@ -268,6 +329,15 @@ button {
   height: 30px;
   padding: 3px;
   margin-top: 5px;
+  margin-bottom: 20px;
+}
+
+ol .mag1 button{
+  margin-top: 41px;
+}
+
+ol .mag2 button{
+  margin-top: 23px;
 }
 
 button:hover {
