@@ -130,6 +130,7 @@ p {
 .background {
   background-image: url(assets/img/tml\ fondo\ 2.png);
   background-size: cover;
+  background-position: center;
   height: 500px;
   border-top-style: solid;
   border-top-width: 40px;
