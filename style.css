@@ -164,6 +164,10 @@ ol .mag1 {
   box-shadow:5px 5px 20px;
  }
 
+ ol .mag1:hover{
+  box-shadow: 5px 5px 30px;
+ }
+
  ol .mag1 a{
   display: inline-block;
   width: 200px;
@@ -192,6 +196,10 @@ ol .mag1 {
   box-shadow:5px 5px 20px;
  }
 
+ ol .mag2:hover{
+  box-shadow: 5px 5px 30px;
+ }
+
  ol .mag2 a{
   display: inline-block;
   width: 200px;
@@ -218,6 +226,10 @@ ol .mag1 {
   overflow: hidden;
   margin-bottom: 10px;
   box-shadow:5px 5px 20px;
+ }
+
+ ol .mag3:hover{
+  box-shadow: 5px 5px 30px;
  }
 
  ol .mag3 a{
