@@ -149,18 +149,19 @@ section ol {
   display: flex;
   justify-content: space-around;
   text-align: center;
-  padding: 20px 0 20px 0;
+  padding: 30px 0 20px 0;
   flex-wrap: wrap;
 }
 
 ol .mag1 {
   text-align: center;
-  width: 404px;
-  height: auto;
-  border: 2px solid #000;
+  width: 400px;
+  height: 469px;
+  /*border: 2px solid #000;*/
   border-radius: 18px;
   overflow: hidden;
-  margin-bottom: 10px;
+  margin-bottom: 30px;
+  box-shadow:5px 5px 20px;
  }
 
  ol .mag1 a{
@@ -182,12 +183,13 @@ ol .mag1 {
 
  ol .mag2 {
   text-align: center;
-  width: 404px;
-  height: auto;
-  border: 2px solid #000;
+  width: 400px;
+  height: 469px;
+  /*border: 2px solid #000;*/
   border-radius: 18px;
   overflow: hidden;
-  margin-bottom: 10px;
+  margin-bottom: 30px;
+  box-shadow:5px 5px 20px;
  }
 
  ol .mag2 a{
@@ -209,12 +211,13 @@ ol .mag1 {
 
  ol .mag3 {
   text-align: center;
-  width: 404px;
-  height: auto;
-  border: 2px solid #000;
+  width: 400px;
+  height: 469px;
+  /*border: 2px solid #000;*/
   border-radius: 18px;
   overflow: hidden;
   margin-bottom: 10px;
+  box-shadow:5px 5px 20px;
  }
 
  ol .mag3 a{
