@@ -105,10 +105,6 @@ i {
   float: right;
 }
 
-.fa-solid:hover {
-  color: #fff;
-}
-
 h1 {
   font-size: 2.5rem;
   text-align: center;
@@ -286,7 +282,7 @@ li a:hover {
 }
 
 .tooltip:hover {
-  text-decoration: underline;
+  text-decoration: none;
 }
 
 .tooltip-box {
